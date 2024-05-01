@@ -1,0 +1,21 @@
+INTRO
+We know that security of a place is of great concern for any organisation. industries banks museums offices homes..whether governmental or or private or personal, they must be kept protected and secure. 
+Today we are going to show you how to design a simple remote control door lock using which you can lock and unlock a door with just one click from the remote controller. This system replaces the traditional lock systems and provides a smart modern locking security method.
+
+MATERIALS
+we need a printed circuit board to build the remote. Unlike breadboard, it doesn’t have short circuited lines with common voltages. 
+Then we need ht12e encoder ic and ht12d decoder ic whose function is to encode and decode the message signal respectively.
+We need stx882 that is transmitter module and srx882 that is receiver module for transmission and reception of signal wirelessly. Note that these operate at 433MHz, the frequency permitted by government to do projects on.
+Then we need 7805 that is 5v voltage regulator ic
+We need 5v relay module. It acts as an electrical switch that controls the circuit and provides an interface between the door lock and the t flip flop.
+We need ic 7476 that is master slave jk flip flop
+And we also need 2 antennae, 14 pin ic base, 18 pin ic base, 12v battery, solenoid door lock, hot glue, bread board, connecting wires, soldering iron, on/off switch and battery connector.
+
+WORKING
+A message signal is encoded using Encoding IC (IC-HT12E) to be transmitted by a transmitter through this antenna and then received using receiver antenna. Entire transmitter and receiver modules including the antenna are operating at 433MHz frequency. This signal is decoded on the receiving end using Decoder IC (IC-HT12D). this is the permissible frequency at which such projects are allowed to be developed. The decoded signal controls a latch circuit that is the t flip flop. The Q output of the t flip flop is fed at input of the relay module. The output from normally open pin of the relay is fed into door lock as input and the door lock is grounded from one side. The relay module plays a big role here by acting as an electrical switch between the components and controlling the action of the door lock. Note that it operates at 9v unlike other components of the circuit that operate at 5v.
+
+APPLICATIONS
+A proper working powerful remote controlled door lock can be used anywhere for security purposes. They can be used in offices, banks, glass doors of malls shopping complexes and also in homes.
+The remote control door lock has proved its special usefulness during corona pandemic when people were afraid to touch door knobs in public places. A remote control door lock ensures that the operator doesn’t have to touch the door to lock or unlock it. 
+Another advantage of a remote control door lock is you can sleep in peace without worrying about getting up and going to open the door since you can control the door lock from your bedroom itself!
+
